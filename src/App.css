@@ -1,0 +1,50 @@
+/* Container - Left Aligned */
+.container {
+  max-width: 900px;
+  margin: 20px;
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.header {
+  border-bottom: 3px solid #000;
+  margin-bottom: 20px;
+}
+
+/* Question Separation with bottom line */
+.task-section {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd; /* Small line on bottom separating questions */
+}
+
+.task-section h3 {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+/* Large Hover Box for Question 8 */
+.large-hover-box {
+  width: 100%;
+  max-width: 500px;
+  height: 150px; /* Increased size */
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border: 2px dashed #999;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.profile-card {
+  border: 1px solid #000;
+  padding: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
